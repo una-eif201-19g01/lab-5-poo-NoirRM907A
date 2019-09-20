@@ -2,10 +2,10 @@
 #include<iostream>
 #include<string>
 
-Trabajador() {};
-Trabajador(std::string id, int horasLab, float precioHoras,int annosLaborales): horasLab(horasLab), precioHoras(precioHoras), annosLaborales(annosLaborales){}
+Trabajador::Trabajador() {};
+Trabajador::Trabajador(std::string id, int horasLab, float precioHoras,int annosLaborales): horasLab(horasLab), precioHoras(precioHoras), annosLaborales(annosLaborales){}
 
-~Trabajador(){}
+Trabajador::~Trabajador(){}
 
 void Trabajador::setID(std::string id) {
 	Trabajador::id = id;
@@ -20,7 +20,7 @@ void Trabajador::setAnnosLaborales(int annosLaborales) {
 	Trabajador::annosLaborales = annosLaborales;
 }
 
-std::string Trabajador::getId() {
+std::string Trabajador::getID() {
 	return id;
 }
 int Trabajador::getHorasLab() {

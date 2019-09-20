@@ -1,6 +1,6 @@
 #ifndef VENDEDOR_H
 #define VENDEDOR_H
-#include<string>
+#include<string>8
 class Trabajador;
 
 class Vendedor {
@@ -15,7 +15,7 @@ public:
 	virtual void setComision(float);
 	virtual void setVentas(int);
 
-	virtual float getComisioc();
+	virtual float getComision();
 	virtual int getVentas();
 
 

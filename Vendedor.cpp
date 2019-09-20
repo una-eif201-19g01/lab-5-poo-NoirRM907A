@@ -1,9 +1,9 @@
 #include "Vendedor.h"
 
-Vendedor(){}
-Vendedor(float comision, int ventas): comision(comision), ventas(ventas){}
+Vendedor::Vendedor(){}
+Vendedor::Vendedor(float comision, int ventas): comision(comision), ventas(ventas){}
 
-~Vendedor(){}
+Vendedor::~Vendedor(){}
 
 void Vendedor::setComision(float comision) {
 	Vendedor::comision = comision;
